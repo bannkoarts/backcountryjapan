@@ -1,0 +1,178 @@
+html{
+    font-size: 100%;
+}
+body{
+    font-family: 'Inconsolata', monospace;
+    line-height: 1.7;
+    color: #432;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.logo{
+    border-radius: 50%;
+    width: 210px;
+    margin-top: 14px;
+}/* do something with the logo later*/
+
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+
+}
+.main-nav li{
+    margin-left: 36px;
+}
+.main-nav a{
+    color: #432;
+}
+.main-nav a:hover{
+    color: #0bd;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+/* Home */
+.home-content{
+    text-align: center;
+    margin-top: 10%;
+}
+.home-content{
+    font-size: 1.125rem;
+    margin: 10px 0 42px;
+}
+.home-content p{
+    text-transform: capitalize;
+}
+.page-title{
+    font-size: 5rem;
+    font-family: 'philosopher', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.button{
+    font-size: 1.375rem;
+    background-color: #0bd;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+.button:hover{
+    background: #0090aa;
+}
+.big-bg{
+    background-size: cover;
+    background-position: center;
+}
+#home{
+    background-image: linear-gradient(#c9ffbf,#ffafbd);
+    min-height: height 100vh;
+}
+#home .page-title{
+    text-transform: none;
+}
+main h2{
+    text-transform: uppercase;
+    font-style:oblique;
+    font-size: 30px;
+}
+main p{
+    font-style: oblique;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+main img{
+    max-width: 100%;
+}
+main{
+    text-align: center;
+    width: 100%;
+    padding-right: .5rem;
+    margin-right: .5rem;
+    float: left;
+
+}
+.description{
+    font-size: medium;
+    text-decoration: underline;
+    text-align: left;
+
+}
+aside img{
+    border-radius: 200px;
+}
+aside{
+    padding: 7%;
+    text-align: center;
+    width: 20%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 -5px #29627e;
+    color:#29627e
+}
+aside h3, h5{
+    font-family: italic;
+    text-transform: capitalize;
+}
+aside p{
+    font-style: italic;
+}
+/*.aside{
+      text-align: center;
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 -5px #29627e;
+    color:#29627e
+}*/
+aside>p{
+    margin:.5rem;
+}
+footer{
+    background-color: #d14635;
+    text-align: center;
+    color: white;
+    padding: 50px;
+ }
+ footer p{
+     margin: 0;
+ }
+ footer a{
+     color: white;
+ }
+ footer a:hover{
+     opacity: .5;
+     background-color: transparent;
+ }
+ #footer{
+     position: fixed;
+     padding: 10px 10px 0 10px;
+     bottom: 0%;
+     width: 100%;
+     height: 5%; /* height of the footer*/
+     background: #6cf;
+     opacity: 60%;
+ }
+
+ p.caption{
+     color: #999999;
+     font-style: italic;
+     margin-top: .0;
+ }
